@@ -9,8 +9,12 @@ window.onload = (e) => {
 	let label = document.createElement('label');
 	label.innerText = 'vs';
 	let player2Sel = document.createElement('select');
+	let fightBtn = document.createElement('input');
+	fightBtn.setAttribute('type', 'submit');
+	fightBtn.value = 'Fight!';
 	fightForm.appendChild(player1Sel);
 	fightForm.appendChild(label);
 	fightForm.appendChild(player2Sel);
+	fightForm.appendChild(fightBtn);
 	wrapper.appendChild(fightForm);
 };
