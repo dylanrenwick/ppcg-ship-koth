@@ -20,7 +20,7 @@ window.onload = (e) => {
 	`);
 	let player1Sel = document.createElement('select');
 	let label = document.createElement('label');
-	label.text = 'vs';
+	label.innerText = 'vs';
 	let player2Sel = document.createElement('select');
 	fightForm.appendChild(player1Sel);
 	fightForm.appendChild(label);
